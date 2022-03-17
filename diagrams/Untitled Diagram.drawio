@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T09:52:18.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="7GL-v2A99uqyKigKPb23" version="16.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-17T09:55:29.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="13Ad8pq0Gp0EUDa7YL5Q" version="16.5.6" type="github" pages="2">
   <diagram id="qqHJglAe3QoaMG8guCTT" name="class diagram mc">
     <mxGraphModel dx="1134" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,18 +11,50 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qAYGhJj3THFoa7Z-N_MO" name="activity diagram mc">
-    <mxGraphModel dx="648" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Or5u-OCOKNDQXCIBPYgo-0" />
         <mxCell id="Or5u-OCOKNDQXCIBPYgo-1" parent="Or5u-OCOKNDQXCIBPYgo-0" />
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Or5u-OCOKNDQXCIBPYgo-1" source="Or5u-OCOKNDQXCIBPYgo-2" target="Or5u-OCOKNDQXCIBPYgo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Or5u-OCOKNDQXCIBPYgo-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
           <mxGeometry x="320" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Or5u-OCOKNDQXCIBPYgo-1" source="Or5u-OCOKNDQXCIBPYgo-4" target="Or5u-OCOKNDQXCIBPYgo-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Or5u-OCOKNDQXCIBPYgo-4" value="Initialize SPI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
           <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Or5u-OCOKNDQXCIBPYgo-5" value="Initialize SPI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Or5u-OCOKNDQXCIBPYgo-1" source="Or5u-OCOKNDQXCIBPYgo-5" target="Or5u-OCOKNDQXCIBPYgo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-5" value="Poll input controllers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
           <mxGeometry x="280" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Or5u-OCOKNDQXCIBPYgo-1" source="Or5u-OCOKNDQXCIBPYgo-6" target="Or5u-OCOKNDQXCIBPYgo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-6" value="Physics update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Or5u-OCOKNDQXCIBPYgo-1" source="Or5u-OCOKNDQXCIBPYgo-7" target="Or5u-OCOKNDQXCIBPYgo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-7" value="Game logic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
+          <mxGeometry x="280" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Or5u-OCOKNDQXCIBPYgo-1" source="Or5u-OCOKNDQXCIBPYgo-8" target="Or5u-OCOKNDQXCIBPYgo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="550" />
+              <mxPoint x="200" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-8" value="Send game frame to GPU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
+          <mxGeometry x="280" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

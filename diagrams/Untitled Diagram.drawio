@@ -1,9 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T09:45:27.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="u7fWbqMdBaGc9RVQU5f8" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T09:52:18.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="7GL-v2A99uqyKigKPb23" version="16.5.6" type="github" pages="2">
   <diagram id="qqHJglAe3QoaMG8guCTT" name="class diagram mc">
-    <mxGraphModel dx="911" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hogpCNnkcxlkZyKSVyeH-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Main&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qAYGhJj3THFoa7Z-N_MO" name="activity diagram mc">
+    <mxGraphModel dx="648" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-0" />
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-1" parent="Or5u-OCOKNDQXCIBPYgo-0" />
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
+          <mxGeometry x="320" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-4" value="Initialize SPI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
+          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Or5u-OCOKNDQXCIBPYgo-5" value="Initialize SPI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Or5u-OCOKNDQXCIBPYgo-1">
+          <mxGeometry x="280" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

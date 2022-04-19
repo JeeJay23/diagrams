@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T09:22:53.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="PezIlkmk2lfInJ7Co5LC" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-19T09:34:00.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="gvK8MhwT3QNtRcnqyRX5" version="17.4.0" type="github">
   <diagram id="VOrpWL358f-0s_IRuCAV" name="Page-1">
-    <mxGraphModel dx="1940" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2132" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,8 +54,8 @@
         <mxCell id="NNw66NQg8OtXfT1V-syA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="NNw66NQg8OtXfT1V-syA-4" target="NNw66NQg8OtXfT1V-syA-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="420" y="310" />
-              <mxPoint x="560" y="310" />
+              <mxPoint x="560" y="320" />
+              <mxPoint x="560" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -68,30 +68,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NNw66NQg8OtXfT1V-syA-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Player&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- curFuel : double&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- fireCoolown : int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- bullets : int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- isGrounded : bool&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- facingRight : bool&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Player (int, int, Vector, Controller*, GameObject**, int*&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- spawnBullet(int, int, int) : void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="340" width="310" height="160" as="geometry" />
+          <mxGeometry x="330" y="320" width="310" height="160" as="geometry" />
         </mxCell>
         <mxCell id="NNw66NQg8OtXfT1V-syA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="NNw66NQg8OtXfT1V-syA-5" target="NNw66NQg8OtXfT1V-syA-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="730" y="310" />
-              <mxPoint x="560" y="310" />
+              <mxPoint x="660" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NNw66NQg8OtXfT1V-syA-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Bullet&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="340" width="160" height="90" as="geometry" />
+        <mxCell id="NNw66NQg8OtXfT1V-syA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="NNw66NQg8OtXfT1V-syA-3" target="NNw66NQg8OtXfT1V-syA-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNw66NQg8OtXfT1V-syA-40" value="- curVelocity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNw66NQg8OtXfT1V-syA-39">
+          <mxGeometry x="-0.8592" y="3" relative="1" as="geometry">
+            <mxPoint x="18" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNw66NQg8OtXfT1V-syA-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Bullet&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ttl : int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Bullet(int, int, Vector&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="520" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NNw66NQg8OtXfT1V-syA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="NNw66NQg8OtXfT1V-syA-6" target="NNw66NQg8OtXfT1V-syA-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNw66NQg8OtXfT1V-syA-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Block&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="NNw66NQg8OtXfT1V-syA-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Block&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Block(int, int)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="140" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NNw66NQg8OtXfT1V-syA-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="NNw66NQg8OtXfT1V-syA-33" target="NNw66NQg8OtXfT1V-syA-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-20" y="490" />
-              <mxPoint x="-20" y="490" />
+              <mxPoint x="485" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -110,15 +120,20 @@
           <mxGeometry x="-230" y="410" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="NNw66NQg8OtXfT1V-syA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="NNw66NQg8OtXfT1V-syA-34" target="NNw66NQg8OtXfT1V-syA-33">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="580" />
+              <mxPoint x="-20" y="580" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="NNw66NQg8OtXfT1V-syA-37" value="- gpio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NNw66NQg8OtXfT1V-syA-36">
           <mxGeometry x="0.2367" y="-1" relative="1" as="geometry">
-            <mxPoint x="31" y="53" as="offset" />
+            <mxPoint x="-2" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NNw66NQg8OtXfT1V-syA-34" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;struct&amp;gt;&amp;gt;&lt;br&gt;GPIO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ GPIOx : GPIO_TypeDef*&lt;br&gt;+ GPIO_Pin : uint16_t&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="510" width="160" height="80" as="geometry" />
+          <mxGeometry x="30" y="540" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

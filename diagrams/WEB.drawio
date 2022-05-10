@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T14:31:29.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="sSKA_QswC0ZKg7gZHpwe" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T14:31:36.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="G4ddbfKNFeorlz3DSgeG" version="18.0.2" type="github">
   <diagram id="DMv-peX_2h2KTgi_iEWE" name="ERD">
     <mxGraphModel dx="942" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,13 +11,13 @@
           <mxGeometry x="470" y="120" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4dXV5xnPfoCECKx_yGO7-3" value="Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="120" width="100" height="50" as="geometry" />
+          <mxGeometry x="310" y="120" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4dXV5xnPfoCECKx_yGO7-4" value="image" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="190" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4dXV5xnPfoCECKx_yGO7-5" value="thumbnail" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="270" width="100" height="50" as="geometry" />
+          <mxGeometry x="570" y="300" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
